@@ -1,0 +1,161 @@
+.navbar {
+    background-color: rgb(152, 16, 249);
+}
+
+.logo {
+    border-radius: 25%; /* Mengatur border-radius menjadi 50% untuk membuatnya bulat */
+    object-fit: cover; /* Menghindari distorsi gambar */
+    width: 30px; /* Sesuaikan lebar gambar jika perlu */
+    height: 30px; /* Sesuaikan tinggi gambar jika perlu */
+  }
+  
+
+.hero-section {
+    background-image: url('rawr.jpg'); /* Ganti dengan path gambar yang kamu simpan */
+    background-size: cover; /* Agar gambar menutupi seluruh div */
+    background-position: center; /* Posisikan gambar di tengah */
+    background-repeat: no-repeat;
+    min-height: 65vh;
+    color: white; /* Teks putih agar kontras */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    -webkit-text-stroke: 0.7px black;
+  }
+
+  section .row {
+    display: flex;
+    justify-content: center;  /* Horizontal centering */
+    align-items: center;      /* Vertical centering */
+    text-align: center;       /* Agar teks berada di tengah juga */
+    margin-top: 30px;
+}
+
+body {
+    padding-top: 60px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+img {
+    width: 400px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Mengatur jarak antara kartu */
+    gap: 20px; /* Menambahkan jarak antar kartu */
+    padding: 50px;
+}
+
+ .turbulance {
+    margin-left: 60px;
+ }
+
+ .feature-icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature h4 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.feature p {
+    color: #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 23%;
+    text-align: center;
+}
+
+.feature-icon {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.feature h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+@media (max-width: 768px) {
+    .feature {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .feature {
+        width: 100%;
+    }
+}
+
